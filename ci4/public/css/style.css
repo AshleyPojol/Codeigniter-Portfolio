@@ -613,8 +613,14 @@ h3.my-section
 }
 
 /*CONTACT*/
+
+.contact-section
+{
+    padding-top: 60px;
+}
 .contact-title
 {
+    position: relative;
     color: var(--skin-color);
     text-align: center;
     font-size: 25px;
@@ -752,161 +758,3 @@ h3.my-section
         max-width: 100%;
     }
 }
-.mutual-title
-{
-    font-size: 30px;
-    color: var(--text-black-900);
-    position: relative;
-}
-.memories-title
-{
-    font-size: 30px;
-    color: var(--text-black-900);
-    position: relative;
-}
-.card
-{
-    border-radius: 25px;
-    color: var(--text-black-700);
-    width: 320px;
-}
-.card-image
-{
-    position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-}
-.card-image 
-.card-img
-{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    border: solid var(--skin-color);
-}
-.swiper-mySwiper
-{
-    min-height:100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--bg-black-900);
-    padding-top: 15px;
-    width: 100%;
-    height: 100%;
-}
-.swiper-wrapper
-{
-    border-radius: 25px;
-    background-color: var(--bg-black-100);
-}
-.swiper-wrapper:hover
-{
-    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-}
-.image-content,.card-content
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 14px;
-}
-.image-content
-{
-    position: relative;
-    row-gap: 5px;
-}
-.cardname
-{
-    font-size: 20px;
-    font-weight: 900;
-    color: var(--skin-color);
-    padding-bottom: 2px;
-}
-.description
-{
-    font-size: 15px;
-    color: var(--text-black-900);
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    flex: 0 0 80%;
-    max-width: 80%;
-}
-.work
-{
-    font-size: 40px;
-    color: var(--text-black-700);
-    position: relative;
-    background-color: var(--bg-black-900);
-    padding-left: 50px;
-}
-.visit
-{
-    height: 50px;
-    padding: 0 50px;
-    border-radius: 25px;
-    text-transform: capitalize;
-    font-size: 15px;
-    color: white;
-    background-color: var(--skin-color);
-    border: none;
-    margin: 14px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.visit:hover
-{
-    transform: scale(1.05);
-}
-.overlay
-{
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background-color: var(--skin-color);
-    border-radius: 25px 25px 25px 25px;
-}
-.container-slide
-{
-    max-width: 1120px;
-    width: 100%;
-    background-color: red;
-}
-.swipper-slide
-{
-    text-align: center;
-    font-size: 18px;
-    background: #be1b1b;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.swipper
-{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 100%;
-}
-.media-icons
-{
-    color: var(--skin-color);
-    word-spacing: 2px;
-}
-.media-icons a
-{
-    color: var(--skin-color);
-}
-.rating
-{
-    color: var(--skin-color);
-}
-.description
-{
-    font-size: 18px;
-}
-

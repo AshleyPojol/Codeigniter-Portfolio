@@ -1,2 +1,1 @@
-Hello World - Jj
-My About Page
+This is my About File

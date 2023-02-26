@@ -3,7 +3,7 @@
 namespace Config;
 
 // Create a new instance of our RouteCollection class.
-$routes = Services::routes();
+// $routes = Services::routes();
 
 /*
  * --------------------------------------------------------------------
@@ -31,11 +31,8 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
-use App\Controllers\News;
 use App\Controllers\Pages;
 
-$routes->get('news/(:segment)', [News::class, 'view']);
-$routes->get('news', [News::class, 'index']);
 $routes->get('pages', [Pages::class, 'index']);
 $routes->get('(:segment)', [Pages::class, 'view']);
 
@@ -53,6 +50,6 @@ $routes->get('(:segment)', [Pages::class, 'view']);
  * You will have access to the $routes object within that file without
  * needing to reload it.
  */
-if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
+ if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
