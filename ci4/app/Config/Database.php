@@ -26,10 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'      => '',
-        'hostname' => '192.168.150.213',
-        'username' => 'webprogmi211',
-        'password' => 'j@zzyAngle30',
-        'database' => 'acpojol_news',
+        'hostname' => 'localhost',
+        'username' => 'root',
+        'password' => '',
+        'database' => 'ci4tutorial',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
