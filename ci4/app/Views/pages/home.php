@@ -4,16 +4,14 @@
     <!--Links Here Be Organized-->
 <script src="https://use.fontawesome.com/98dccfb4ee.js"></script>
 <script src="https://unkgp.com/swiper/swiper-bundle.min.js"></script>
-<script src="./js/styleswitcher.js"></script>
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-<link rel="stylesheet" href="./css/color1.css">
 <!--== Style Switcher == -->
-<link rel="stylesheet" href="./css/color1.css" class="alternate-style" title="color1" disabled >
-<link rel="stylesheet" href="./css/color2.css" class="alternate-style" title="color2" disabled >
-<link rel="stylesheet" href="./css/color3.css" class="alternate-style" title="color3" disabled>
-<link rel="stylesheet" href="./css/color4.css" class="alternate-style" title="color4" disabled>
-<link rel="stylesheet" href="./css/color5.css" class="alternate-style" title="color5" disabled>
+<link rel="stylesheet" href="./skins/color1.css" class="alternate-style" title="color1" disabled >
+<link rel="stylesheet" href="./skins/color2.css" class="alternate-style" title="color2" disabled >
+<link rel="stylesheet" href="./skins/color3.css" class="alternate-style" title="color3" disabled>
+<link rel="stylesheet" href="./skins/color4.css" class="alternate-style" title="color4" disabled>
+<link rel="stylesheet" href="./skins/color5.css" class="alternate-style" title="color5" disabled>
 <link rel="stylesheet" href="./css/styleswitcher.css">
 
 
@@ -468,7 +466,6 @@
     
 
     <!-- === JS Files === -->
-    <script src="js/script.js"></script>
     <script src="./js/styleswitcher.js"></script>
 
     </body>
