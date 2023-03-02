@@ -6,14 +6,13 @@
 <script src="https://unkgp.com/swiper/swiper-bundle.min.js"></script>
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-<!--== Style Switcher == -->
-<link rel="stylesheet" href="./skins/color1.css" class="alternate-style" title="color1" disabled >
-<link rel="stylesheet" href="./skins/color2.css" class="alternate-style" title="color2" disabled >
-<link rel="stylesheet" href="./skins/color3.css" class="alternate-style" title="color3" disabled>
-<link rel="stylesheet" href="./skins/color4.css" class="alternate-style" title="color4" disabled>
-<link rel="stylesheet" href="./skins/color5.css" class="alternate-style" title="color5" disabled>
+<!--== Style Switcher == -->	
 <link rel="stylesheet" href="./css/styleswitcher.css">
-
+<link rel="stylesheet" href="./css/color1.css"class="alternate-style" title="color1" disabled >
+<link rel="stylesheet" href="./css/color2.css" class="alternate-style" title="color2" disabled >
+<link rel="stylesheet" href="./css/color3.css" class="alternate-style" title="color3" disabled>
+<link rel="stylesheet" href="./css/color4.css" class="alternate-style" title="color4" disabled>
+<link rel="stylesheet" href="./css/color5.css" class="alternate-style" title="color5" disabled>
 
 <!-- === Favicon Here === -->
 
@@ -29,7 +28,7 @@
         <!-- === Aside Start === -->
     <div class="aside">
         <div class="logo">
-            <a href="#"><span>Toru</span></a>
+            <a href="/lab3/ci4/public/home"><span>Toru</span></a>
         </div>
         <div class="nav-toggler">
             <span></span>
@@ -54,10 +53,10 @@
                             <h3 class="hello"> Hello, my name is <span class="name">Ashley Joy</span></h3>
                             <h3 class="my-section">I am from <span class="typing">BSIT-MI211</span></h3>
                             <p> currently taking Bachelor of Science in Information Technology in Makati, Philippines.</p>
-                            <a href="#contact" class="btn contact-me"> Looking For Me </a>
+                            <a href="https://www.facebook.com/ashiepoj/" class="btn contact-me"> Looking For Me </a>
                         </div> 
                         <div class="home-img padd-15">
-                            <img src= "./img/Portrait.jpg" alt="">
+                            <img src= "img/Portrait.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -377,60 +376,11 @@
                     <!-- == Contact Info Item End == -->
 
                 </div>
-                <h3 class="contact-title padd-15">Feel Free to Email Me</h3>
-                <h4 class="contact-sub-title padd-15">Fill-Up the Form</h4>
-                 
-                <!-- == Contact Form == -->
-                <div class="row">
-                    <div class="contact-form padd-15">
-                        <div class="row">
-                            <div class="form-item col-6 padd-15">
-                                <div class="form-group">
-                                    <form method="post" action="insert.php">
-                                    <input type="text" class="form-control" placeholder="Name" id="fullName" name="fullName">
-                                </div>
-                            </div>
-
-
-
-                            <div class="form-item col-6 padd-15">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email" id="emailUsed" name="emailUsed">
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="row">
-                            <div class="form-item col-12 padd-15">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Subject" id="subjectUsed" name="subjectUsed">
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="row">
-                            <div class="form-item col-12 padd-15">
-                                <div class="form-group">
-                                    <textarea name="messageInput" class="form-control" id="messageInput" placeholder="Message"></textarea>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="row">
-                            <div class="form-item col-12 padd-15">
-                                <button type="submit" class="btn">Send Message</button>
-                            </div>
-                        </form>
-
-
-                        </div>
-                    </div>
+                <h3 class="contact-title padd-15">Click the Button to Make a Feedback</h3>
+                <h4 class="contact-sub-title padd-15">For those who gave a feedback in my task in WEBPROG:
+                    Personal Profile, I would like to express my gratitude by saying a simple thank you.</h4>
+                    <div class="contbtn">
+                    <a href="/lab3/ci4/public/comments/" class="contact-btn">Feedbacks Here</a>
                 </div>
                 </div>
             </section>
@@ -442,7 +392,6 @@
 
     </div>
     <!-- === Main End === --> 
-	
     <!-- == Style Switcher Start == -->
     <div class="style-switcher">
         <div class="style-switcher-toggler s-icon">

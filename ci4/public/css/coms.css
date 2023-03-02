@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root
+{
+    --bg-black-900:#F2F2FC;
+    --bg-black-100:#FDF9FF;
+    --bg-black-50:#E8DFEC;
+    --text-black-900:#302E4D;
+    --text-black-700:#504E70;
+    --skin-color:#e24718;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
