@@ -380,7 +380,7 @@
                 <h4 class="contact-sub-title padd-15">For those who gave a feedback in my task in WEBPROG:
                     Personal Profile, I would like to express my gratitude by saying a simple thank you.</h4>
                     <div class="contbtn">
-                    <a href="https://apcwebprog.csf.ph/~acpojol/lab3/ci4/public/comments/" class="contact-btn">Feedbacks Here</a>
+                    <a href="/lab3/ci4/public/comments/" class="contact-btn">Feedbacks Here</a>
                 </div>
                 </div>
             </section>
