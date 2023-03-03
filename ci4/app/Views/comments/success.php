@@ -8,7 +8,7 @@
         <!-- === Aside Start === -->
     <div class="aside">
         <div class="logo">
-            <a href="/lab3/ci4/public/home"><span>Toru</span></a>
+            <a href="/https://apcwebprog.csf.ph/~acpojol/lab3/ci4/public/home"><span>Toru</span></a>
         </div>
         <div class="nav-toggler">
             <span></span>
@@ -29,7 +29,7 @@
     <h1 class = "success-h1 ">Comment Posted Successfully!</h1>
 	
 	<div class = "success-btn">
-    <a href="/lab3/ci4/public/comments">
+    <a href="/https://apcwebprog.csf.ph/~acpojol/lab3/ci4/public/comments">
          <button type="submit" class="btn">Go Back</button>
     </a>
 	</div>
