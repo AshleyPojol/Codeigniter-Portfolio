@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* Colors */
+
+
+:root
+{
+    --bg-black-900:#F2F2FC;
+    --bg-black-100:#FDF9FF;
+    --bg-black-50:#E8DFEC;
+    --text-black-900:#302E4D;
+    --text-black-700:#504E70;
+    --skin-color:#E24718;
+}
+
+/* Main Attributes */
+
+.shadow-dark
+{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    background: var(--bg-black-900);
+
+    font-family: 'Poppins', sans-serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.padd-15
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Form CSS */
+
+
+.contact-form
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-left: 250px;
+}
+.contact-form .col-6
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: ;
+    
+}
+.contact-form .col-12
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.contact-form .form-item
+{
+    margin-bottom: 30px;
+}
+.contact-form .form-item .form-control
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    padding: 10px 25px;
+    font-size: 16px;
+    color: var(--text-black-700);
+    transition: all 0.3s ease;
+}
+.contact-form .form-item .form-control:focus
+{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.contact-form .form-item textarea.form-control
+{
+    height: 140px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.contact-form .btn
+{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background: var(--skin-color);
+    transition: all 0.3s ease;
+}
+
+/* Nav Bar CSS */
+
+.aside
+{
+    width: 270px;
+    background: var(--bg-black-100);
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 30px;
+    height: 100%;
+    border-right: 1px solid var(--bg-black-50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.aside .logo
+{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.aside .logo a
+{
+    color:var(--text-black-900);
+    font-weight: 700;
+    padding: 15px 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: relative;
+}
+.aside .logo a span
+{
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+}
+.aside .logo a::before
+{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+    bottom: 0;
+    left: 0;
+}
+.aside .logo a::after
+{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid var(--skin-color);
+    border-right: 5px solid var(--skin-color);
+    top: 0;
+    right: 0;
+}
+.aside .nav-toggler
+{
+    height: 40px;
+    width: 45px;
+    border: 1px solid var(--bg-black-50);
+    cursor: pointer;
+    position: fixed;
+    left: 300px;
+    top: 20px;
+    border-radius: 5px;
+    background: var(--bg-black-100);
+    display: none;
+}
+.aside .nav-toggler span
+{
+    height: 2px;
+    width: 18px;
+    background: var(--skin-color);
+    display: inline-block; 
+    position: relative;
+    margin-left: 13px;
+    margin-bottom: -1px;
+}
+.aside .nav-toggler span::before
+{
+    content: "";
+    height: 2px;
+    width: 18px;
+    background: var(--skin-color);
+    position: absolute;
+    top: -6px;
+    left: 0;
+}
+.aside .nav-toggler span::after
+{
+    content: "";
+    height: 2px;
+    width: 18px;
+    background: var(--skin-color);
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+.aside .nav
+{
+    margin-top: 50px;
+}
+.aside .nav li
+{
+    margin-bottom: 20px;
+    display: flex;
+    color: var(--text-black-700);
+}
+.aside .nav li a
+{
+    font-size: 16px;
+    display: block;
+    border-bottom: 1px solid var(--bg-black-50);
+    color: var(--text-black-900);
+    padding: 5px 15px;
+}
+.aside .nav li a.active 
+{
+    color: var(--skin-color);
+}
+.aside .nav li a i
+{
+    margin-right: 15px;
+}
+
+/* Comment Section*/
+.contact-right
+{
+    background: var(--bg-black-900);
+    min-height: 100vh;
+    display: block;
+    padding: 0 10px;
+    opacity: 1;
+    padding-left: 270px;
+}
+.post-comments
+{
+    padding-left: 290px;
+    padding-bottom: 20px;
+    color: var(--text-black-900);
+}
+.sub-title
+{
+    color: var(--text-black-900);
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.emp
+{
+    padding-left: 270px;
+}
+h3
+{
+    color: var(--text-black-900);
+    padding-left: 50px;
+}
+p
+{
+    color: var(--text-black-900);
+    padding-left: 50px; 
+}
+
+/* Error CSS */
+
+.errors
+{
+    padding-left: 150px;
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+/* Success CSS */
+.success-center
+{
+	padding-left: 270px;
+}
+.success-h1
+{
+	color: var(--text-black-900);
+}
+.success-btn
+{
+	padding-left: 270px;
+}

@@ -20,19 +20,6 @@ body
 .fcontainer
 {
 	color: 504E70;
-	
-}
-.title
-{
-    background: var(--skin-color);
-    font-family: 'Bungee', cursive;
-	font-weight: 100px;
-	position: relative;
-	text-align:center;
-	padding-bottom:20px;
-	padding-top:20px;
-	font-size: 20px;
-	border-radius: 10px;
 }
 .title p 
 {

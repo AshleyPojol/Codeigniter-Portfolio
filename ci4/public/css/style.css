@@ -709,6 +709,30 @@ h3.my-section
     height: 50px;
     padding: 0 50px; 
 }
+.contbtn
+{
+    flex: 0 0 25%;
+    padding: 0 50px;
+    text-align: center;
+}
+.contact-btn
+{
+    width: 300px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background: var(--skin-color);
+    transition: all 0.3s ease;
+}
+.contact-btn:hover
+{
+    transform: scale(1.05);
+}
 @media(max-width: 1199px)
 {
     .aside
