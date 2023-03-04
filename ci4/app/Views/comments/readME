@@ -1,0 +1,22 @@
+  <?php if (! empty($comments) && is_array($comments)): ?>
+
+                        <?php foreach ($comments as $comment): ?>
+
+                            <div class="emp">
+                                <h3><?= esc($comment['fullName']) ?></h3>
+                                <p><?= esc($comment['emailUsed']) ?></p><br>
+                                <p><?= esc($comment['subjectUsed']) ?></p><br>
+                                <p><?= esc($comment['messageInput']) ?></p><br>
+                        
+                            </div>
+                            <br>
+
+                        <?php endforeach ?>
+
+                        <?php else: ?>
+
+                        <h3>No Comments</h3>
+
+                        <p>Nothing to see here yet.</p>
+
+                        <?php endif ?>

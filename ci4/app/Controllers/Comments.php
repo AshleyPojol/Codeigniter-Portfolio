@@ -9,6 +9,17 @@ class Comments extends BaseController
     public function index()
     {
         $model = model(CommentsModel::class);
+
+        // $data = [
+        //     'comments'  => $model->getComments(),
+        //     'title' => 'Comment Section',
+        // ];
+
+        // return view('templates/header', $data)
+        //     . view('comments/index')
+        //     . view('templates/footer');        
+
+        //create function
         helper('form');
 
         $data = [
@@ -39,7 +50,10 @@ class Comments extends BaseController
             . view('templates/footer');
         }
 
-   
+        $date = date('F j, Y g:i a');
+
+        
+
         $model->save([
             'fullName' => $post['fullName'],
             'emailUsed' => $post['emailUsed'],
@@ -50,9 +64,9 @@ class Comments extends BaseController
         return view('templates/header', $data)
         . view('comments/success')
         . view('templates/footer');
-
+        //end of create
         
-        }
+        }//index
 
     
-    }
+    }//class

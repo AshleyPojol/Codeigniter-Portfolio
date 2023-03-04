@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
 <head>
-    <title>CodeIgniter Tutorial</title>
+
+    <link rel="icon" href="./img/favicon.png">
 </head>
 <body>
 

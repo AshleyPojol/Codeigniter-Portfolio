@@ -45,13 +45,13 @@
 						<div class="row"> 
                             <div class="form-item col-6 padd-15">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Name" value="<?= set_value('fullName') ?>" required>
+                                    <input type="text" name= fullName class="form-control" placeholder="Name" value="<?= set_value('fullName') ?>" required>
                                 </div>
                             </div>
 							
                             <div class="form-item col-6 padd-15">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email" value="<?= set_value('emailUsed') ?>" required>
+                                    <input type="email" name= emailUsed class="form-control" placeholder="Email" value="<?= set_value('emailUsed') ?>" required>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                         <div class="row">
                             <div class="form-item col-12 padd-15">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Subject" value="<?= set_value('subjectUsed') ?>" required>
+                                    <input type="text" name= subjectUsed class="form-control" placeholder="Subject" value="<?= set_value('subjectUsed') ?>" required>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
                         <div class="row">
                             <div class="form-item col-12 padd-15">
                                 <div class="form-group">
-                                    <textarea name="" class="form-control" id="" placeholder="Message" value="<?= set_value('messageInput') ?>" required></textarea>
+                                    <textarea name="messageInput"  name= messageInput class="form-control" id="" placeholder="Message" value="<?= set_value('messageInput') ?>" required></textarea>
                                 </div>
                             </div>
                         </div>
@@ -81,31 +81,34 @@
                 </div> <!-- === Row End === -->
 				
         <div class="contact-right"> <!-- === Contact-Right Start === -->
+
+
                     <h1 class="sub-title"><?= esc($title) ?></h1>
                     <br><br>
                     
                     <?php if (! empty($comments) && is_array($comments)): ?>
 
-                        <?php foreach ($comments as $comment): ?>
+                    <?php foreach ($comments as $comment): ?>
 
-                            <div class="emp">
-                                <h3><?= esc($comment['fullName']) ?></h3>
-                                <p><?= esc($comment['emailUsed']) ?></p><br>
-                                <p><?= esc($comment['subjectUsed']) ?></p><br>
-                                <p><?= esc($comment['messageInput']) ?></p><br>
-                        
-                            </div>
-                            <br>
+                    <div class="portfolio-box">
+                     <h3><?= esc($comment['fullName']) ?></h3>
+                        <p><?= esc($comment['emailUsed']) ?></p><br>
+                        <p><?= esc($comment['subjectUsed']) ?></p><br>
+                        <p><?= esc($comment['messageInput']) ?></p><br>
 
-                        <?php endforeach ?>
+                     </div>
+                    <br>
 
-                        <?php else: ?>
+                <?php endforeach ?>
 
-                        <h3>No Comments</h3>
+                <?php else: ?>
 
-                        <p>Nothing to see here yet.</p>
+                <h3>No Comments</h3>    
 
-                        <?php endif ?>
+                <p>Nothing to see here yet.</p>
+
+                <?php endif ?>
+ 
 						
 						
         </div> <!-- === Contact-Right End === -->
